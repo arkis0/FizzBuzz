@@ -17,6 +17,7 @@ namespace FizzBuzz
         }
         private static string FizzBuzz()
         {
+            //dodać try, catch(debilo-odporność)<3
             int number = int.Parse(Console.ReadLine());
             if (number % 3 == 0 && number % 5 == 0 && number % 10 != 0)
             {
@@ -26,14 +27,12 @@ namespace FizzBuzz
             {
                 return "Fizz";
             }
-            else if(number % 5 == 0 && number % 3 != 0) 
+            else if(number % 5 == 0 && number % 3 != 0)
             {
                return "Buzz";
             }
 
-            return $"Liczba {number} nie jest podzielna ani przez 3 ani prze 5";
-
-            
+            return $"Liczba {number} nie jest podzielna ani przez 3, ani przez 5.";
         }
     }
 }
