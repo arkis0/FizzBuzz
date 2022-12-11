@@ -12,7 +12,7 @@ namespace FizzBuzz
         {
             // Opis gry
             Console.WriteLine("----------FizzBuzz----------\n");
-            Console.WriteLine("Zasady gry:\n- Jeżeli liczba użytkownika będzie podzielna przez 3 bez reszty, to powinien zostać zwrócony wynik „Fizz”.\n-Jeżeli liczba użytkownika będzie podzielna przez 5 bez reszty, to powinien zostać zwrócony wynik „Buzz”.\n-Jeżeli liczba użytkownika będzie podzielna przez 3 i przez 5 jednocześnie bez reszty, to powinien zostać\n zwrócony wynik „FizzBuzz”.\n-Jeżeli liczba użytkownika nie będzie podzielna przez 3 ani przez 5 bez reszty, to wtedy zwracasz podaną liczbę.\n");
+            Console.WriteLine("Zasady gry:\n\n-Jeżeli liczba użytkownika będzie podzielna przez 3 bez reszty, to powinien zostać zwrócony wynik „Fizz”.\n-Jeżeli liczba użytkownika będzie podzielna przez 5 bez reszty, to powinien zostać zwrócony wynik „Buzz”.\n-Jeżeli liczba użytkownika będzie podzielna przez 3 i przez 5 jednocześnie bez reszty, to powinien zostać\n zwrócony wynik „FizzBuzz”.\n-Jeżeli liczba użytkownika nie będzie podzielna przez 3 ani przez 5 bez reszty, to wtedy zwracasz podaną liczbę.\n");
 
             Console.WriteLine("Podaj liczbę: ");
             var score = FizzBuzz();
